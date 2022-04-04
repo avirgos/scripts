@@ -55,7 +55,7 @@ function validityWordsNumber() {
 # Arguments:
 #   None
 # Outputs:
-#   Displays invalid words, via a GTK+ dialog, containing
+#   Display invalid words, via a GTK+ dialog, containing
 #   at least one number.
 ######################################################################
 function errorNumbers() {
@@ -287,7 +287,7 @@ function sentenceIsPalindrome() {
 # Arguments:
 #   -h
 # Outputs:
-#   Displays, via a GTK+ dialog, how to use the script.
+#   Display, via a GTK+ dialog, how to use the script.
 ######################################################################
 function helpUser() {
     echo 'Reminder : the following special characters '${ALL_SPECIAL_CHARACTERS}' are forbidden for *words mode*.

@@ -27,7 +27,7 @@ ARGUMENTS_PASSWORD_MIN_LENGTH=8
 # Arguments:
 #   -g passwordLength
 # Outputs:
-#   Displays, on the standard output, the password generated.
+#   Display, on the standard output, the password generated.
 ######################################################################
 function generator() {
     if ! test "${ARGUMENTS_PASSWORD_LENGTH}" = "-g" && ! test "${ARGUMENTS_PASSWORD_LENGTH}" -lt "${ARGUMENTS_PASSWORD_MIN_LENGTH}"
@@ -60,7 +60,7 @@ function generator() {
 # Arguments:
 #   -h
 # Outputs:
-#   Displays, on the standard output, how to use the script.
+#   Display, on the standard output, how to use the script.
 ######################################################################
 function helpUser() {
     echo "Precision: passwordLength less than 8 is not allowed for security reasons.

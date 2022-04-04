@@ -8,7 +8,7 @@ ______________________________________
 
 # How to use it ?
 
-![Palindrome help](img/palindrome-help.png)
+![palindrome-help](img/palindrome-help.png)
 
 - -s : option to check if a sentence is a palindrome
 - -h : help (__without__ arguments -> help)

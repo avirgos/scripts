@@ -11,7 +11,7 @@ ______________________________________
 
 # How to use it ?
 
-![Password-generator help](img/password-generator-help.png)
+![password-generator-help](img/password-generator-help.png)
 
 - -g : option to generate a password with the length chose by the user
 - -h : help (__without__ arguments -> help)
